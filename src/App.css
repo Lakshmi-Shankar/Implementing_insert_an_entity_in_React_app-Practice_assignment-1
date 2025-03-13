@@ -1,13 +1,5 @@
 /* src/App.css */
 
-.App {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f5f5f5;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 /* Optional: Remove default margin and padding */
 body,
@@ -17,3 +9,49 @@ html,
   padding: 0;
   height: 100%;
 }
+
+.FORM{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  transform: translate(100%,10%);
+  box-shadow: 5px 5px 10px white;
+  border-radius: 10px;
+}
+.forForm{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addTitle{
+  color: rgb(0, 0, 0);
+}
+
+.forForm input{
+  width: 300px;
+  height: 10px;
+  padding: 15px;
+  
+}
+
+.desc{
+  height: 100px;
+}
+
+.addButton{
+  margin-top: 30px;
+  width: 300px;
+  font-size: medium;
+}
+
+.addButton:hover{
+  font-size: large;  
+}
+
+
+
